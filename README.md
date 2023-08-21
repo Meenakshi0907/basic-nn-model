@@ -13,7 +13,7 @@ Regression helps in establishing a relationship between a dependent variable and
 Build your training and test set from the dataset, here we are making the neural network 3 hidden layer with activation layer as relu and with their nodes in them. Now we will fit our dataset and then predict the value.
 
 ## Neural Network Model
-
+![image](https://github.com/Meenakshi0907/basic-nn-model/assets/94165108/b9aaa1b6-3411-48e0-acf9-20e276bbb240)
 
 ## DESIGN STEPS
 
@@ -57,6 +57,7 @@ from tensorflow.keras.layers import Dense
 from google.colab import auth
 import gspread
 from google.auth import default
+from tensorflow.keras.metrics import RootMeanSquaredError as rmse
 
 auth.authenticate_user()
 creds, _ = default()
